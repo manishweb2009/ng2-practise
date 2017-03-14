@@ -7,16 +7,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AhContent = (function () {
-    function AhContent() {
+var AhTiles = (function () {
+    function AhTiles() {
     }
-    return AhContent;
+    return AhTiles;
 }());
-AhContent = __decorate([
+AhTiles = __decorate([
     core_1.Component({
-        selector: 'ah-content',
-        template: "\n            <router-outlet></router-outlet>\n  "
+        selector: 'ah-tiles',
+        templateUrl: 'app/shared/models/tiles/tiles.component.html',
+        styleUrls: ['app/shared/models/tiles/tiles.component.css']
     })
-], AhContent);
-exports.AhContent = AhContent;
-//# sourceMappingURL=content.component.js.map
+], AhTiles);
+exports.AhTiles = AhTiles;
+//# sourceMappingURL=tiles.component.js.map

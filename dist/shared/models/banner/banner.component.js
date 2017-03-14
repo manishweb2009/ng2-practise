@@ -7,16 +7,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AhContent = (function () {
-    function AhContent() {
+var AhBanner = (function () {
+    function AhBanner() {
     }
-    return AhContent;
+    return AhBanner;
 }());
-AhContent = __decorate([
+AhBanner = __decorate([
     core_1.Component({
-        selector: 'ah-content',
-        template: "\n            <router-outlet></router-outlet>\n  "
+        selector: 'ah-banner',
+        templateUrl: 'app/shared/models/banner/banner.component.html',
+        styles: ['.jumbotron{margin-top:-20px;}']
     })
-], AhContent);
-exports.AhContent = AhContent;
-//# sourceMappingURL=content.component.js.map
+], AhBanner);
+exports.AhBanner = AhBanner;
+//# sourceMappingURL=banner.component.js.map

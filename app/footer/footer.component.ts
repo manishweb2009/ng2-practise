@@ -3,7 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ah-footer',
   template: `
-            <p>All Rights Reserved. &copy; AON App</p>
+            <hr>
+            <footer class="container">
+              <span class="pull-left"><a routerLink="/home">Project name</a></span>
+              <span class="pull-right">All Rights Reserved. &copy; Project name</span>
+            </footer>
   `
 })
 export class AhFooter {

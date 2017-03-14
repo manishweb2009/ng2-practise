@@ -7,16 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AhContent = (function () {
-    function AhContent() {
+var HomeComponent = (function () {
+    function HomeComponent() {
     }
-    return AhContent;
+    return HomeComponent;
 }());
-AhContent = __decorate([
+HomeComponent = __decorate([
     core_1.Component({
-        selector: 'ah-content',
-        template: "\n            <router-outlet></router-outlet>\n  "
+        template: "\n            <ah-banner></ah-banner>\n            <ah-tiles></ah-tiles>\n            <ah-sidebar></ah-sidebar>\n  "
     })
-], AhContent);
-exports.AhContent = AhContent;
-//# sourceMappingURL=content.component.js.map
+], HomeComponent);
+exports.HomeComponent = HomeComponent;
+//# sourceMappingURL=home.component.js.map

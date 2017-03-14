@@ -4,7 +4,4 @@ import { Component } from '@angular/core';
     selector: 'ah-header',
     templateUrl: 'app/header/header.html'
 })
-export class AhHeader{
-
-
-}
+export class AhHeader{}

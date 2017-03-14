@@ -3,11 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ah-content',
   template: `
-            <section>
-                Aon content App
-            </section>
+            <router-outlet></router-outlet>
   `
 })
-export class AhContent {
-
-}
+export class AhContent {}

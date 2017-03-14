@@ -7,16 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AhContent = (function () {
-    function AhContent() {
+var PageNotFoundComponent = (function () {
+    function PageNotFoundComponent() {
     }
-    return AhContent;
+    return PageNotFoundComponent;
 }());
-AhContent = __decorate([
+PageNotFoundComponent = __decorate([
     core_1.Component({
-        selector: 'ah-content',
-        template: "\n            <router-outlet></router-outlet>\n  "
+        template: "\n            <div class=\"container\">\n              <h2>Page not found</h2>\n            </div>\n            "
     })
-], AhContent);
-exports.AhContent = AhContent;
-//# sourceMappingURL=content.component.js.map
+], PageNotFoundComponent);
+exports.PageNotFoundComponent = PageNotFoundComponent;
+//# sourceMappingURL=PageNotFound.component.js.map
