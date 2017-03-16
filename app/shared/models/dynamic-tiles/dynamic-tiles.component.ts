@@ -8,7 +8,7 @@ import { Component } from "@angular/core";
                     <p>Hello Purple, this is a colored tile.</p>
                 </div>
                 <!--
-                <div class="tile {{tileColor}}">
+                <div *ngFor class="tile {{tileColor}}">
                     <h3 class="title">{{tileTitle}}</h3>
                     <p>{{tileContent}}</p>
                 </div>

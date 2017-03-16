@@ -9,7 +9,9 @@ import { Component } from '@angular/core';
                 <ah-sidebar></ah-sidebar>
               </div>
               <div class="col-xs-9 col-sm-9">
-                <ah-dynamic-tiles></ah-dynamic-tiles>
+                <ah-dynamic-tiles tileColor="{{tile.color}}"></ah-dynamic-tiles>
+                <ah-dynamic-tiles tileColor="{{tile.color}}"></ah-dynamic-tiles>
+                <ah-dynamic-tiles tileColor="{{tile.color}}"></ah-dynamic-tiles>
               </div>
             </div>
             </div>
