@@ -4,4 +4,5 @@ import { Component } from '@angular/core';
   selector: 'ah-sidebar',
   templateUrl: 'app/shared/models/sidebar/sidebar.component.html'
 })
-export class AhSidebar {}
+
+export class AhSidebar { }

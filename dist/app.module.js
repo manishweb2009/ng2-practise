@@ -19,11 +19,14 @@ var banner_component_1 = require("./shared/models/banner/banner.component");
 var sidebar_component_1 = require("./shared/models/sidebar/sidebar.component");
 var loading_component_1 = require("./shared/models/loading/loading.component");
 var tiles_component_1 = require("./shared/models/tiles/tiles.component");
+var dynamic_tiles_component_1 = require("./shared/models/dynamic-tiles/dynamic-tiles.component");
 var home_component_1 = require("./home/home.component");
 var about_component_1 = require("./about/about.component");
+var contact_component_1 = require("./contact/contact.component");
 var appRoutes = [
     { path: 'home', component: home_component_1.HomeComponent },
     { path: 'about', component: about_component_1.AboutComponent },
+    { path: 'contact', component: contact_component_1.ContactComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: PageNotFound_component_1.PageNotFoundComponent }
 ];
@@ -34,11 +37,11 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, router_1.RouterModule.forRoot(appRoutes)],
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, forms_1.ReactiveFormsModule, router_1.RouterModule.forRoot(appRoutes)],
         declarations: [app_component_1.AppComponent,
             header_component_1.AhHeader, footer_component_1.AhFooter, content_component_1.AhContent,
-            banner_component_1.AhBanner, sidebar_component_1.AhSidebar, loading_component_1.ahLoading, tiles_component_1.AhTiles,
-            home_component_1.HomeComponent, about_component_1.AboutComponent, PageNotFound_component_1.PageNotFoundComponent],
+            banner_component_1.AhBanner, sidebar_component_1.AhSidebar, loading_component_1.ahLoading, tiles_component_1.AhTiles, dynamic_tiles_component_1.AhDynamicTiles,
+            home_component_1.HomeComponent, about_component_1.AboutComponent, contact_component_1.ContactComponent, PageNotFound_component_1.PageNotFoundComponent],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

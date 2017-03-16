@@ -15,7 +15,7 @@ var AhContent = (function () {
 AhContent = __decorate([
     core_1.Component({
         selector: 'ah-content',
-        template: "\n            <router-outlet></router-outlet>\n  "
+        template: "\n            <router-outlet></router-outlet>\n            "
     })
 ], AhContent);
 exports.AhContent = AhContent;

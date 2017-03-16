@@ -15,7 +15,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'aon-app',
-        template: "\n\n    <!-- Aon Header start -->\n    <ah-header></ah-header>\n    <!-- Aon Header end -->\n\n    <!-- Aon Content start -->\n    <ah-content></ah-content>\n    <!-- Aon Content end -->\n\n    <!-- Aon Footer start -->\n    <ah-footer></ah-footer>\n    <!-- Aon Footer end -->\n\n  "
+        template: "\n            <!-- Aon Header start -->\n            <ah-header></ah-header>\n            <!-- Aon Header end -->\n\n            <!-- Aon Content start -->\n            <ah-content></ah-content>\n            <!-- Aon Content end -->\n\n            <!-- Aon Footer start -->\n            <ah-footer></ah-footer>\n            <!-- Aon Footer end -->\n          "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

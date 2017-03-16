@@ -7,17 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var ahLoading = (function () {
-    function ahLoading() {
+var AhDynamicTiles = (function () {
+    function AhDynamicTiles() {
     }
-    return ahLoading;
+    return AhDynamicTiles;
 }());
-ahLoading = __decorate([
+AhDynamicTiles = __decorate([
     core_1.Component({
-        selector: 'ah-loading',
-        template: "\n            <div class=\"loading\">\n                <div class=\"rectangle-bounce\">\n                    <span class=\"rect1\"></span>\n                    <span class=\"rect2\"></span>\n                    <span class=\"rect3\"></span>\n                    <span class=\"rect4\"></span>\n                    <span class=\"rect5\"></span>\n                </div>\n            </div>\n            ",
-        styleUrls: ['app/shared/models/loading/loading.component.css']
+        selector: 'ah-dynamic-tiles',
+        template: "\n                <div class=\"tile \">\n                    <h3 class=\"title\">Purple Tile</h3>\n                    <p>Hello Purple, this is a colored tile.</p>\n                </div>\n                <!--\n                <div class=\"tile {{tileColor}}\">\n                    <h3 class=\"title\">{{tileTitle}}</h3>\n                    <p>{{tileContent}}</p>\n                </div>\n                -->\n              "
     })
-], ahLoading);
-exports.ahLoading = ahLoading;
-//# sourceMappingURL=loading.component.js.map
+], AhDynamicTiles);
+exports.AhDynamicTiles = AhDynamicTiles;
+//# sourceMappingURL=dynamic-tiles.component.js.map

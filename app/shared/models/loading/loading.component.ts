@@ -12,9 +12,8 @@ import { Component } from '@angular/core';
                     <span class="rect5"></span>
                 </div>
             </div>
-  `,
-  styleUrls:['app/shared/models/loading/loading.component.css']
+            `,
+  styleUrls: ['app/shared/models/loading/loading.component.css']
 })
-export class ahLoading {
 
-}
+export class ahLoading { }

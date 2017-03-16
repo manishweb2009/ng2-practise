@@ -8,8 +8,7 @@ import { Component } from '@angular/core';
               <span class="pull-left"><a routerLink="/home">Project name</a></span>
               <span class="pull-right">All Rights Reserved. &copy; Project name</span>
             </footer>
-  `
+            `
 })
-export class AhFooter {
 
-}
+export class AhFooter { }

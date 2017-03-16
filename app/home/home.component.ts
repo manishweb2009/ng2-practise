@@ -1,9 +1,19 @@
 import { Component } from '@angular/core';
+
 @Component({
   template: `
             <ah-banner></ah-banner>
-            <ah-tiles></ah-tiles>
-            <ah-sidebar></ah-sidebar>
-  `
+            <div class="container">
+            <div class="row">
+              <div class="col-xs-3 col-sm-3">
+                <ah-sidebar></ah-sidebar>
+              </div>
+              <div class="col-xs-9 col-sm-9">
+                <ah-dynamic-tiles></ah-dynamic-tiles>
+              </div>
+            </div>
+            </div>
+            `
 })
+
 export class HomeComponent { }

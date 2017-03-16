@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'ah-content',
   template: `
             <router-outlet></router-outlet>
-  `
+            `
 })
-export class AhContent {}
+
+export class AhContent { }

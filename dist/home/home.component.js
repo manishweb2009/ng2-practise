@@ -14,7 +14,7 @@ var HomeComponent = (function () {
 }());
 HomeComponent = __decorate([
     core_1.Component({
-        template: "\n            <ah-banner></ah-banner>\n            <ah-tiles></ah-tiles>\n            <ah-sidebar></ah-sidebar>\n  "
+        template: "\n            <ah-banner></ah-banner>\n            <div class=\"container\">\n            <div class=\"row\">\n              <div class=\"col-xs-3 col-sm-3\">\n                <ah-sidebar></ah-sidebar>\n              </div>\n              <div class=\"col-xs-9 col-sm-9\">\n                <ah-dynamic-tiles></ah-dynamic-tiles>\n              </div>\n            </div>\n            </div>\n            "
     })
 ], HomeComponent);
 exports.HomeComponent = HomeComponent;

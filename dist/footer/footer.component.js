@@ -15,7 +15,7 @@ var AhFooter = (function () {
 AhFooter = __decorate([
     core_1.Component({
         selector: 'ah-footer',
-        template: "\n            <hr>\n            <footer class=\"container\">\n              <span class=\"pull-left\"><a routerLink=\"/home\">Project name</a></span>\n              <span class=\"pull-right\">All Rights Reserved. &copy; Project name</span>\n            </footer>\n  "
+        template: "\n            <hr>\n            <footer class=\"container\">\n              <span class=\"pull-left\"><a routerLink=\"/home\">Project name</a></span>\n              <span class=\"pull-right\">All Rights Reserved. &copy; Project name</span>\n            </footer>\n            "
     })
 ], AhFooter);
 exports.AhFooter = AhFooter;

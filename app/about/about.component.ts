@@ -4,12 +4,8 @@ import { Component } from '@angular/core';
   template: `
             <div class="container">
                 <div class="row row-offcanvas row-offcanvas-right">
-                <div class="col-xs-12 col-sm-9">
-                    <div class="row">
-                        <div class="col-xs-6 col-lg-4">
-                            <h1>About page</h1>            
-                        </div>
-                    </div>
+                <div class="col-xs-9 col-sm-9">
+                    <h1>About page</h1>            
                     <div class="row">
                         <div class="col-xs-6 col-lg-4">
                         <h2>Heading</h2>
@@ -43,9 +39,12 @@ import { Component } from '@angular/core';
                         </div><!--/.col-xs-6.col-lg-4-->
                     </div><!--/row-->
                 </div>
-                <ah-sidebar></ah-sidebar>
+                <div class="col-xs-3 col-sm-3">
+                    <ah-sidebar></ah-sidebar>
+                </div>
                 </div>
             </div>
-  `
+            `
 })
+
 export class AboutComponent { }
